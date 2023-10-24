@@ -20,6 +20,7 @@ html, body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: white;
 }
 
 .navbar-flex ul {
@@ -35,7 +36,9 @@ html, body {
 }
 
 .center-navbar ul li a:hover {
+    text-decoration: underline;
     color: rgb(185, 46, 113);
+    transition: all 150ms ease-in-out;
 }
 
 .right-navbar ul {
@@ -57,8 +60,17 @@ html, body {
     color: white;
 }
 
+.right-navbar .white-btn a img {
+    width: 20px;
+}
+
+.donate {
+    padding-right: 10px;
+}
+
 .right-navbar .white-btn a:hover {
     background-color: #ef305d;
+    transition: all 250ms ease-in-out;
 }
 
 .right-navbar .dark-btn a {
@@ -69,9 +81,10 @@ html, body {
 
 .right-navbar .dark-btn a:hover {
     background-color: #72324a;
+    transition: all 250ms ease-in-out;
 }
 
-/* Section1 */
+/* FOTOJA PAS NAVBAR-IT*/
 /* KONTENTIN UNDER E POZICIONON ABSOLUTE */
 /* HEADERIN - RELATIVE */
 .hero-image {
@@ -94,15 +107,62 @@ html, body {
 }
 
 .support-btn {
-    position: absolute; /* Pse po duhet absolute per me funksionu punu*/
+    position: absolute;
+    /* Pse po duhet absolute per me funksionu punu*/
     display: inline;
     font-size: 25px;
     border: 2px solid white;
     border-radius: 40px;
-    padding: 20px;
+    padding: 20px 40px;
     margin-top: 30px;
 }
 
- 
+.support-btn:hover {
+    color: #d2395c;
+    background-color: white;
+    transition: all 250ms ease-in-out;
+}
+
+/* SECTION-1 */
+.section-1 {
+    /* display: flex; me lon qeshtu border te butoni shume wide*/
+    /* flex-direction: column; */
+    text-align: center;
+    font-size: 30px;
+    margin: 70px 300px;
+}
+
+.section-1 h2 {
+    font-size: 15px;
+    color: grey;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.section-1-p {
+    font-size: 40px;
+    line-height: 70px;
+    letter-spacing: 2px;
+    font-family: 'Raleway', sans-serif;
+}
 
 
+.section-1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    border: 1px solid #f05473;
+    padding: 15px 30px;
+    border-radius: 35px;
+    font-weight: 500;
+}
+
+.section-1 a:hover {
+    color: #9f2842;
+    transition: all 200ms ease-in-out;
+    border-width: 2px;
+}
+
+.section-1 div {
+    margin-top: 60px;
+}
