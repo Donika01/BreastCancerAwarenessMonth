@@ -87,22 +87,30 @@ html, body {
 /* FOTOJA PAS NAVBAR-IT*/
 /* KONTENTIN UNDER E POZICIONON ABSOLUTE */
 /* HEADERIN - RELATIVE */
+
+/* z-index */
 .hero-image {
-    position: relative;
+    /* position: relative;  */
     height: calc(100vh - 90px);
-    background: url("assets/images/Support-Grp-Members-Tracy-Tina-Amy-e1657034232517.png") right bottom no-repeat, linear-gradient(63.43deg, #9f2842 0, #f05473 100%), linear-gradient(63.43deg, #d2395c 0, #ff6185 100%);
-    background-size: auto 100%;
-    
+    background: linear-gradient(63.43deg, #9f2842 0, #f05473 100%), linear-gradient(63.43deg, #d2395c 0, #ff6185 100%);
+} 
+
+.support-image {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
 }
 
 
-.hero-brush img {
+.hero-brush  img{
     position: absolute;
     right: 0;
     bottom: 0;
     height: 800px;
-    /* z-index: -1; */
-}
+    /* z-index: 2; */
+} 
+/* z-index */
 
 
 .hero-text {
