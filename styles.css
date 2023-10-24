@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.container {
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-top: 10px;
+    height: 115px;
+    background-color: white;
+}
+
+.navbar-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-flex ul {
+  
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.navbar-flex ul li {
+    padding-left: 50px;
+}
+
+.center-navbar ul {
+    display: flex;
+}
+
+.center-navbar ul li a:hover {
+    color: rgb(185, 46, 113);
+}
+
+.right-navbar ul {
+    display: flex;
+}
+
+.right-navbar ul li a {
+    padding: 15px 25px;
+    border-radius: 30px;
+}
+.navbar-flex ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.right-navbar .white-btn a{
+    background-color: #ff6185;
+    color: white;
+}
+
+.right-navbar .white-btn a:hover {
+    background-color: #ef305d;
+}
+
+.right-navbar .dark-btn a {
+    background-color: #8f4761;
+    color: white;
+    margin-left: -20px;
+}
+
+.right-navbar .dark-btn a:hover {
+    background-color: #72324a;
+}
+
+/* Section1 */
+
+.hero-image {
+    height: calc(100vh );
+    padding-left: 500px;
+    background:url("assets/images/Support-Grp-Members-Tracy-Tina-Amy-e1657034232517.png")  right bottom no-repeat,linear-gradient(63.43deg,#9f2842 0,#f05473 100%),linear-gradient(63.43deg,#d2395c 0,#ff6185 100%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* height of images */
+.nbfc-logo {
+    height: 80px;
+}
+
+.donate {
+    height: 30px;
+}
