@@ -11,9 +11,9 @@ html, body {
 .container {
     margin-right: 70px;
     margin-left: 70px;
-    margin-top: 10px;
-    height: 115px;
+    height: 90px;
     background-color: white;
+    font-size: 18px;
 }
 
 .navbar-flex {
@@ -23,10 +23,7 @@ html, body {
 }
 
 .navbar-flex ul {
-  
     list-style: none;
-    margin-left: 0;
-    padding-left: 0;
 }
 
 .navbar-flex ul li {
@@ -49,12 +46,13 @@ html, body {
     padding: 15px 25px;
     border-radius: 30px;
 }
+
 .navbar-flex ul li a {
     text-decoration: none;
     color: black;
 }
 
-.right-navbar .white-btn a{
+.right-navbar .white-btn a {
     background-color: #ff6185;
     color: white;
 }
@@ -74,33 +72,37 @@ html, body {
 }
 
 /* Section1 */
-
+/* KONTENTIN UNDER E POZICIONON ABSOLUTE */
+/* HEADERIN - RELATIVE */
 .hero-image {
-    height: calc(100vh );
-    padding-left: 500px;
-    background:url("assets/images/Support-Grp-Members-Tracy-Tina-Amy-e1657034232517.png")  right bottom no-repeat,linear-gradient(63.43deg,#9f2842 0,#f05473 100%),linear-gradient(63.43deg,#d2395c 0,#ff6185 100%);
+    position: relative;
+    height: calc(100vh - 90px);
+    background: url("assets/images/Support-Grp-Members-Tracy-Tina-Amy-e1657034232517.png") right bottom no-repeat, linear-gradient(63.43deg, #9f2842 0, #f05473 100%), linear-gradient(63.43deg, #d2395c 0, #ff6185 100%);
+    background-size: auto 100%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* height of images */
-.nbfc-logo {
-    height: 80px;
+.hero-text {
+    color: white;
+    font-size: 38px;
+    margin-left: 70px;
+    position: absolute;
+    top: 25%;
 }
 
-.donate {
-    height: 30px;
+.hero-text span {
+    font-size: 30px;
 }
+
+.support-btn {
+    position: absolute; /* Pse po duhet absolute per me funksionu punu*/
+    display: inline;
+    font-size: 25px;
+    border: 2px solid white;
+    border-radius: 40px;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+ 
+
+
