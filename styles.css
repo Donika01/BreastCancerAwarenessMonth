@@ -189,7 +189,6 @@ html, body {
 .popular-btn a:hover {
     color: #9f2842;
     transition: all 200ms ease-in-out;
-    border-width: 2px;
 }
 
 .section-1 div {
@@ -246,5 +245,82 @@ html, body {
     width: 220px;
 }
 
-
 /* Section-2 */
+/* Section-3 */
+
+.section-3 {
+    margin: 200px 180px;
+    display: flex;
+    align-items: center;
+}
+
+/* text */
+
+.section-3-text {
+    font-family: 'Raleway';
+    color: #46463b;
+    letter-spacing: 2px;
+}
+
+.section-3-text h2 {
+    text-transform: uppercase;
+    font-size: 15px;
+    margin: 0px 0px 20px;
+
+}
+
+.section-3-text q {
+    font-size: 32px;
+    line-height: 50px;
+}
+
+.section-3-text p:first-of-type {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+/* image */
+.section-3-img {
+    position: relative;
+    margin-left: 150px;
+}
+
+.section-3 img:first-child {
+    border-radius: 20px;
+}
+
+
+.section-3-pink-brush {
+    position: absolute;
+    top: 370px;
+    left: 150px;
+}
+
+.section-3-pink-circle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Pse me align-items nuk po pozicionohet bash ne mes */
+    /* align-items: center; */
+    position: absolute;
+    top: 200px;
+    left: -100px;
+    height: 242px;
+    width: 242px;
+    background-color: rgba(255,97,133,.8);
+    border-radius: 100%;
+    text-align: center;
+    color: white;
+}
+
+.section-3-pink-circle h2 {
+    font-size: 50px;
+}
+
+.section-3-pink-circle p {
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+/* Section-3 */
