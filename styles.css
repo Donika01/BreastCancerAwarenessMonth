@@ -123,11 +123,18 @@ html, body {
 
 
 .hero-text {
+    position: relative;
     color: white;
     font-size: 38px;
     margin-left: 70px;
     position: absolute;
     top: 230px;
+}
+
+.hero-text img {
+    position: absolute;
+    top: 150px;
+    left: 285px;
 }
 
 .hero-text span {
@@ -478,7 +485,7 @@ html, body {
 /* Section-7 */
 
 .section-7 {
-    margin:150px 200px;
+    margin: 150px 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -547,3 +554,83 @@ html, body {
 }
 
 /* Section-7 */
+/* Footer */
+.footer {
+    background-color: #72324a;
+    padding: 6rem 10rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer div:first-of-type {
+    margin-bottom: 40px;
+}
+
+.footer-middle-part {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-middle-part div:first-child {
+    padding-right: 50px;
+}
+
+/* Another way, so we do not create too many classses */
+/* .footer div:last-child {
+    display: flex;
+    flex-direction: column;
+} */
+
+.footer-logos {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-logos img {
+    padding-bottom: 20px;
+}
+
+.footer-middle-part h2 {
+    font-size: 15px;
+    color: #ffbecf;
+    margin: 0px 0 25px;
+    text-transform: uppercase;
+}
+
+.footer-middle-part-links a {
+    display: block;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    line-height: 30px;
+}
+
+.footer-middle-part-links a:hover, .footer-end a:hover {
+    text-decoration-line: underline;
+    text-underline-offset: 5px;
+    color: #ffbecf;
+}
+
+/* Footer end */
+
+.footer-end p, .footer-end a {
+    font-size: 14px;
+    color: #ffffff99;
+    padding: 10px 4px;
+    text-decoration: none;
+}
+
+.footer-socials img {
+    background-color: #ffbecf;
+    padding: 6px;
+    border-radius: 100%;
+
+}
+
+.footer-end {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Footer */
