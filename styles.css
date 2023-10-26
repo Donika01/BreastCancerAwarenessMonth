@@ -177,16 +177,16 @@ html, body {
 
 .popular-btn a {
     text-decoration: none;
-    color: black;
-    font-size: 20px;
+    color: #46363b;
+    font-size: 19px;
     border: 1px solid #f05473;
     padding: 15px 30px;
     border-radius: 35px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .popular-btn a:hover {
-    color: #9f2842;
+    color: #f05473;
     transition: all 200ms ease-in-out;
 }
 
@@ -273,6 +273,7 @@ html, body {
     line-height: 50px;
 }
 
+
 .section-3-text p:first-of-type {
     margin-top: 20px;
     margin-bottom: 10px;
@@ -349,8 +350,6 @@ html, body {
     font-size: 20px;
 }
 
-
-
 /* Images */
 
 .section-4-images-container {
@@ -366,10 +365,10 @@ html, body {
 }
 
 .section-4-images-container img {
-    margin-bottom: -13px; 
+    margin-bottom: -13px;
 }
 
-.section-4-images-container h2, p {
+.section-4-images-container h2, .section-4-images-container p {
     padding: 0 30px;
 }
 
@@ -402,7 +401,7 @@ html, body {
 /* Section-4 */
 
 /* Section-5 */
-/* Section-5 */
+
 
 .section-5 {
     background-color: #ebe5e5;
@@ -432,3 +431,45 @@ html, body {
     font-size: 16px;
     margin-top: 20px;
 }
+
+/* Section-5 */
+/* Section-6 */
+
+.section-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 100px;
+}
+
+.section-6-brands {
+    margin-bottom: 20px;
+}
+
+.section-6-brands img {
+    padding: 20px 20px;
+
+}
+
+.section-6 h1 {
+    font-size: 52px;
+    margin: 0 0 45px;
+    color: #46363b;
+}
+
+.section-6 span {
+    font-size: 60px;
+}
+
+.section-6 h1 {
+    position: relative;
+}
+
+.section-6 h1 > img {
+    position: absolute;
+    left: 393px;
+    top: 40px;
+    z-index: -1;
+}
+
+/* Section-6 */
