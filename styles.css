@@ -9,18 +9,20 @@ html, body {
 }
 
 .container {
-    margin-right: 70px;
-    margin-left: 70px;
+    display: flex;
+    justify-content: center;
     height: 90px;
-    background-color: white;
-    font-size: 18px;
 }
 
 .navbar-flex {
+    font-size: 18px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 15;
 }
 
 .navbar-flex ul {
@@ -62,19 +64,18 @@ html, body {
 }
 
 .right-navbar .white-btn a img {
-    width: 20px;
+    position: relative;
+    top: 3px;
+    right: 7px;
 }
 
-.donate {
-    padding-right: 10px;
-}
 
 .right-navbar .white-btn a:hover {
     background-color: white;
     color: #d2395c;
+    border: 1px solid #ff6185;
+    font-weight: 600;
     /* Pse spo bon veq border */
-    border-top: 2px solid #9f2842;
-    border-bottom: 2px solid #8f4761;
     transition: all 250ms ease-in-out;
 }
 
@@ -473,3 +474,56 @@ html, body {
 }
 
 /* Section-6 */
+
+/* Section-7 */
+
+.section-7 {
+    margin: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-7-text {
+    color: #46363b;
+    font-size: 50px;
+    width: 50%
+}
+
+.section-7-text p {
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 50px;
+}
+
+.section-7-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-7-buttons a {
+    margin: 20px 0;
+    text-align: center;
+    padding: 20px 130px;
+}
+
+.section-7-buttons .section-7-donate-btn {
+    background-color: #ff6185;
+    color: white;
+}
+
+.section-7-donate-btn img {
+    position: relative;
+    top: 5px;
+    right: 10px;
+}
+
+
+
+
+
+
+
+
+
+/* Section-7 */
