@@ -552,6 +552,8 @@ html, body {
     top: 5px;
     right: 10px;
 }
+/* Section-7 */
+/* Section-8 */
 
 .section-8 {
     display: flex;
@@ -561,7 +563,7 @@ html, body {
     margin-bottom: 100px;
 }
 
-.section-8 h2{
+.section-8 h2 {
     color: #46363b;
     margin-bottom: 15px;
     font-size: 35px;
@@ -569,7 +571,7 @@ html, body {
 }
 
 .section-8 input, textarea {
-    padding: 20px ;
+    padding: 20px;
     width: 400px;
     border-radius: 15px;
     margin: 7px 0;
@@ -581,12 +583,11 @@ html, body {
 }
 
 .section-8 input:hover, textarea:hover {
-    
-    box-shadow: 3px  1px 1px #d2395d7f;
+    box-shadow: 3px 1px 1px #d2395d7f;
 }
 
 .section-8-button {
-   display: flex;
+    display: flex;
     justify-content: center;
     margin-top: 10px;
 }
@@ -596,7 +597,6 @@ html, body {
 
 }
 
-/* Section-7 */
 /* Footer */
 .footer {
     background-color: #72324a;
@@ -654,6 +654,7 @@ html, body {
     color: #ffbecf;
 }
 
+/* Section-8 */
 /* Footer end */
 
 .footer-end p, .footer-end a {
